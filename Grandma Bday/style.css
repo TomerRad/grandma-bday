@@ -1,0 +1,46 @@
+*{
+    background-color: #A0E7E5;
+}
+
+h1 {
+    font-family: "rubik doodle shadow";
+    font-size: 10rem;
+    width: 99%;
+    text-align: center;
+    color: black;
+    background-color: pink;
+    border: solid;
+    padding: 1px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+div {
+    font: 1rem;
+}
+
+div > p {
+    background-color: black;
+    border: solid white;
+    color: pink;
+    top: px;
+    padding: 15px;
+    position: absolute;
+    margin: 10px 10px;
+}
+
+img{
+    margin: 0;
+    border: solid;
+    border-radius: 10%;
+    width: 49%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#big-div{
+    position: relative;
+    left: 10px;
+}

@@ -1,46 +1,64 @@
-*{
-    background-color: #A0E7E5;
+* {
+  background-color: #a0e7e5;
+  font-size: 100%;
 }
 
 h1 {
-    font-family: "rubik doodle shadow";
-    font-size: 10rem;
-    width: 99%;
-    text-align: center;
-    color: black;
-    background-color: pink;
-    border: solid;
-    padding: 1px 20px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-right: 100px;
-    border-radius: 10px;
+  font-family: "rubik doodle shadow";
+  font-size: 200px;
+  width: 70%;
+  text-align: center;
+  color: black;
+  background-color: pink;
+  border: solid;
+  padding: 1px 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-right: 100px;
+  border-radius: 10px;
+  position: relative;
+  left: 13.5%;
 }
 
-div {
-    font: 1rem;
+img {
+  margin: 0;
+  border: solid;
+  border-radius: 10%;
+  width: 49%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-div > p {
-    background-color: black;
-    border: solid white;
-    color: pink;
-    top: px;
-    padding: 15px;
-    position: absolute;
-    margin: 10px 10px;
+#big-div {
+  position: relative;
+  left: 10px;
+}
+#small-div {
+  align-content: center;
+  text-align: center;
 }
 
-img{
-    margin: 0;
-    border: solid;
-    border-radius: 10%;
-    width: 49%;
-    margin-left: 0;
-    margin-right: 0;
+@media (max-width: 1728px) {
+  h1 {
+    font-size: 5rem;
+  }
 }
 
-#big-div{
-    position: relative;
-    left: 10px;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 300px) {
+    h1 {
+      font-size: 1em;
+      width: 100%;
+    }
+  }
+
+@media (max-width: 960px) {
+  #small-div {
+    width: 50%;
+  }
 }
